@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
+    <!-- javaScript file added -->
+    <script defer src="/js/script.js"></script>
+
     <!-- io icons script -->
     <script
       type="module"
@@ -32,11 +35,13 @@
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Hot it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for Free</a></li>
+          <li><a class="main-nav-link" href="#how">Hot it works</a></li>
+          <li><a class="main-nav-link" href="#meal">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for Free</a></li>
         </ul>
       </nav>
 
@@ -60,8 +65,8 @@
               nutritional needs.
             </p>
 
-            <a href="#" class="btn">Start eating well</a>
-            <a href="#" class="btn btn-learn-more">Learn more &darr;</a>
+            <a href="#cta" class="btn">Start eating well</a>
+            <a href="#how" class="btn btn-learn-more">Learn more &darr;</a>
 
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -107,7 +112,7 @@
       </section>
 
       <!-- How it works Section -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">Hot it works</span>
 
@@ -183,7 +188,7 @@
 
         <!-- MEAL Section -->
       </section>
-      <section class="section-meals">
+      <section class="section-meals" id="meal">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -304,7 +309,7 @@
       </section>
 
       <!-- TESTAMONAIL SECTION -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonial-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -465,7 +470,7 @@
 
       <!-- PRICING SECTION -->
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -593,7 +598,7 @@
 
       <!-- Call To Action Section -->
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -653,10 +658,11 @@
         </div>
       </section>
 
+      <!-- Footer Section -->
       <footer class="section-footer">
         <div class="container grid grid--footer">
           <div class="socials">
-            <a class="footer-logo">
+            <a href="#" class="footer-logo">
               <img
                 class="logo"
                 src="/img/omnifood-logo.png"
